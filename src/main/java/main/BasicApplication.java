@@ -13,5 +13,4 @@ public class BasicApplication {
         GreetingController controller = (GreetingController) ctx.getBean("greetingController");
         controller.sayHello();
     }
-
 }
